@@ -1,0 +1,42 @@
+main {
+  background: linear-gradient(#751010d4, rgb(240, 194, 78));
+}
+.productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.productos li {
+  text-align: center;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.productos li:hover {
+  border-color: rgb(220, 216, 8);
+}
+.productos li:active {
+  border-color: rgb(130, 15, 15);
+}
+.productos li img {
+  padding: 20px 0 10px 0;
+}
+.productos h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.productos li:hover h2 {
+  font-size: 33px;
+}
+.producto-descripcion {
+  font-size: 18px;
+}
+.producto-precio {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
